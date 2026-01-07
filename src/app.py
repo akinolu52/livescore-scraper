@@ -37,7 +37,7 @@ def main():
         num_games = st.number_input(
             "Number of Games",
             min_value=1,
-            max_value=50,
+            max_value=100,
             value=10,
             help="Maximum number of recent games to fetch"
         )
